@@ -1,0 +1,11 @@
+{
+    "name": "luanrodrigues/asaas",
+    "authors": [
+        {
+            "name": "Luan Rodrigues",
+            "email": "luan@luanrodrigues.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
