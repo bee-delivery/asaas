@@ -1,5 +1,9 @@
 {
     "name": "luanrodrigues/asaas",
+    "description": "A package to php integration with Asaas",
+    "keywords": ["asaas", "laravel", "php"],
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Luan Rodrigues",
@@ -7,5 +11,20 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "luanrodrigues\\asaas\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+               "luanrodrigues\\asaas\\AsaasServiceProvider"
+            ],
+            "aliases": {
+                "asaas": "luanrodrigues\\asaas\\Facades\\Asaas"
+            }
+        }
+    }
 }
