@@ -1,13 +1,9 @@
 <?php
 
-namespace luanrodrigues\asaas\src;
+namespace luanrodrigues\asaas;
 
-
-use function App\Helpers\newException;
-use Bugsnag\BugsnagLaravel\Facades\Bugsnag;
 use Exception;
 use luanrodrigues\asaas\src\Exceptions\ClienteException;
-use luanrodrigues\asaas\src\Connection;
 
 class Cliente
 {

@@ -1,11 +1,10 @@
 <?php
 
-namespace luanrodrigues\asaas\src;
+namespace luanrodrigues\asaas;
 
 
 use Exception;
 use luanrodrigues\asaas\src\Exceptions\ClienteException;
-use luanrodrigues\asaas\src\Connection;
 use luanrodrigues\asaas\src\Exceptions\ContaException;
 
 class Conta

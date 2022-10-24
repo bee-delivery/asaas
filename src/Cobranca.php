@@ -1,11 +1,7 @@
 <?php
 
-namespace luanrodrigues\asaas\src;
+namespace luanrodrigues\asaas;
 
-
-
-use Illuminate\Support\Facades\Log;
-use function App\Helpers\newException;
 use luanrodrigues\asaas\src\Exceptions\CobrancaException;
 
 class Cobranca
@@ -149,7 +145,7 @@ class Cobranca
             $this->cobranca = array_merge($this->cobranca, $cobranca);
             return $this->cobranca;
 
-        } catch (Exception $e) {
+        } catch (\Exception $e) {
             return 'Erro ao definir a cobrança. - ' . $e->getMessage();
         }
     }

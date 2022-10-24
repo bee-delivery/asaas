@@ -1,10 +1,7 @@
 <?php
 
-namespace luanrodrigues\asaas\src;
+namespace luanrodrigues\asaas;
 
-
-
-use function App\Helpers\newException;
 use luanrodrigues\asaas\src\Exceptions\CobrancaException;
 
 class Cartao

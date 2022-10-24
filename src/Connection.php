@@ -1,14 +1,8 @@
 <?php
 
-namespace luanrodrigues\asaas\src;
+namespace luanrodrigues\asaas;
 
-
-
-use Asaas\Api\Exceptions\AccessTokenException;
 use GuzzleHttp\Client;
-use GuzzleHttp\Exception\BadResponseException;
-use GuzzleHttp\Exception\ClientException;
-use Illuminate\Support\Facades\Log;
 
 class Connection {
     
