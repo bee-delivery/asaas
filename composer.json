@@ -23,7 +23,7 @@
                "luanrodrigues\\asaas\\AsaasServiceProvider"
             ],
             "aliases": {
-                "asaas": "luanrodrigues\\asaas\\Facades\\Asaas"
+                "Asaas": "luanrodrigues\\asaas\\Facades\\Asaas"
             }
         }
     }

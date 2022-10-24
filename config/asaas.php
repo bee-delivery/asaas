@@ -1,6 +1,6 @@
 <?php
 
-$url = config('app.asaas_url');
+$url = env('ASAAS_API_URL');
 
 return [
     'base_url_v2'   => $url . 'v2', // Url da API do Asaas

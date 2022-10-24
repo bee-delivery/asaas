@@ -2,9 +2,6 @@
 
 namespace luanrodrigues\asaas;
 
-
-
-use Illuminate\Support\Facades\Log;
 use luanrodrigues\asaas\src\Cartao;
 use luanrodrigues\asaas\src\Cliente;
 use luanrodrigues\asaas\src\Cobranca;
@@ -12,7 +9,6 @@ use luanrodrigues\asaas\src\Conta;
 
 class Asaas
 {
-
     public function conta(){
         return new Conta();
     }
